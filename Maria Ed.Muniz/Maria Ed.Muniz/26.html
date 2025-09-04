@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+
+    <h2>Exemplo 1: Mudar cor com foco</h2>
+    <input type="text" id="campoFoco" onfocus="mudarParaAmarelo()" onblur="voltarBranco()" placeholder="Clique aqui" />
+
+    <script>
+        function mudarParaAmarelo() {
+            document.getElementById("campoFoco").style.backgroundColor = "yellow";
+        }
+
+        function voltarBranco() {
+            document.getElementById("campoFoco").style.backgroundColor = "white";
+        }
+    </script>
+
+</body>
+
+</html>

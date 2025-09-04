@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mostrar ID</title>
+</head>
+
+<body>
+
+    <p id="paragrafoExemplo">Texto de exemplo.</p>
+
+    <button onclick="mostrarID()">Mostrar ID do parágrafo</button>
+
+    <script>
+        function mostrarID() {
+            const elemento = document.getElementById("paragrafoExemplo");
+            alert("ID do elemento é: " + elemento.id);
+        }
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+
+    <p id="exibicaoTexto"></p>
+    <button onclick="mostrarTexto()">Mostrar Texto</button>
+
+    <input  type="text" id="inputTexto" value=""/>
+
+
+    <script>
+
+        function mostrarTexto() {
+            var texto = document.getElementById("inputTexto").value
+            document.getElementById("exibicaoTexto").innerHTML = texto
+
+        }
+
+
+        // trabalhar com input é um pouco diferente igual á cima//
+
+
+    </script>
+
+</body>
+
+</html>
