@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+
+    <button id="botao" onclick="contarCliques()">Clique Aqui, para contar quantas vezes vc clica</button>
+
+    <script>
+        var quantidade = 0
+
+        function contarCliques() {
+            quantidade = 1 + quantidade  
+            document.getElementById("botao").innerHTML = "Você clicou " + quantidade + " vezes"
+        }
+    </script>
+
+</body>
+
+</html>

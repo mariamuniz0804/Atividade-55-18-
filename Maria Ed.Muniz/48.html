@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body>
+        <ul id="tarefas"></ul>
+        <input type="text" id="input">
+        <button id="botao" onclick="adicionarTarefa" ()>Clique Aqui</button>
+    
+        <script>
+            function adicionarTarefa() {
+                var texto = document.getElementById("input").value
+                document.getElementById("tarefas").innnerHTML += "<li>" + tarefa + "</li>"
+            }
+        </script>
+
+
+
+
+</body>
+</html>
