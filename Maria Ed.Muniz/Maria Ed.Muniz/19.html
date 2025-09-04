@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+
+
+    <button onclick="mudarCor()">Clique Aqui</button>
+
+
+    <div id="div" style="width: 100px; height: 100px; background-color: brown;">
+
+
+    </div>
+
+
+
+    <script>
+
+
+        function mudarCor() {
+
+            cores = ["blue", "purple", "pink", "red", "yellow", "green", "orange", "grey"]
+            numAleatorio = Math.floor(Math.random() * 7)
+            document.getElementById("div").style.background = cores[numAleatorio]
+
+
+
+
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
